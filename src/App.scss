@@ -47,9 +47,9 @@ a {
 }
 
 .fa-chess-queen,
-.fa-long-arrow-alt-down {
+.fa-github {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .page-wrapper {
@@ -206,11 +206,13 @@ a {
         }
       }
     }
-    .navbar-scroll {
+    .navbar-social {
       align-self: end;
       padding: 2rem 0;
-      .scroll-icon {
-        text-align: center;
+      a {
+        height: 100%;
+        padding: 2rem 1rem;
+        display: block;
       }
     }
     i {
@@ -298,6 +300,11 @@ a {
 
   .footer-right {
     justify-self: end;
+  }
+
+  .fa-github {
+    color: $mainBlue;
+    padding: 0 10px;
   }
 }
 
@@ -648,7 +655,7 @@ a {
       padding-top: 10px;
     }
   }
-  .sidebar .sidebar-inner .navbar-scroll {
+  .sidebar .sidebar-inner .navbar-social {
     display: none;
   }
   .sidebar .sidebar-inner .navbar-toggle {

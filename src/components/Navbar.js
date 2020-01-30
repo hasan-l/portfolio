@@ -28,11 +28,10 @@ export default class Navbar extends React.Component {
             <div className="navbar-logo">
               <FontAwesomeIcon icon="chess-queen" />
             </div>
-            <div className="navbar-scroll">
-              {/* <div className="scroll-text">scroll</div>
-              <div className="scroll-icon">
-                <FontAwesomeIcon icon="long-arrow-alt-down" />
-              </div> */}
+            <div className="navbar-social">
+              <a href="https://github.com/hasan-l" target="_blank">
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </div>
           </div>
         </div>
