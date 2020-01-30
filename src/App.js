@@ -1,8 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navbar from "./components/Navbar";
 import Overlay from "./components/Overlay";
 import Cover from "./components/Cover";
@@ -11,11 +9,6 @@ import ProjectMarkdown from "./components/ProjectMarkdown";
 import ProjectPortfolio from "./components/ProjectPortfolio";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
-
-//loaded animations
-// window.addEventListener("load", () => {
-//   document.querySelector("body").classList.add("loaded");
-// });
 
 class App extends React.Component {
   constructor(props) {
