@@ -14,7 +14,8 @@ export default class ProjectPortfolio extends React.Component {
 
           <p>
             I created this portfolio single page application using React and
-            Sass in the Create React App environment
+            Sass in the Create React App environment. It has been deployed using
+            Github and Netlify
           </p>
         </div>
         <div className="full-width-container">
