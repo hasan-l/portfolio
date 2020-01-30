@@ -458,6 +458,7 @@ a {
   left: 40px;
   transition: bottom 0.3s $ProjCubicBezier;
   z-index: 1;
+  padding: 1rem;
 }
 
 .project-type {
@@ -705,6 +706,10 @@ a {
     .footer-right {
       justify-self: normal;
     }
+  }
+
+  .projects-list .project-item img {
+    opacity: 0.4;
   }
 }
 
