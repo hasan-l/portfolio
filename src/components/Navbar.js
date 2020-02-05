@@ -1,5 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default class Navbar extends React.Component {
   render() {
@@ -9,9 +10,9 @@ export default class Navbar extends React.Component {
           <div className="sidebar-outer">
             <div className="sidebar-outer-content">
               <div className="links-container">
-                <a href="#projects" onClick={this.props.projectToggleClick}>
+                <Link to={"/#projects"} onClick={this.props.projectToggleClick}>
                   Projects
-                </a>
+                </Link>
                 <a href="mailto:hasan.liaquat@hotmail.com">Contact</a>
               </div>
             </div>
