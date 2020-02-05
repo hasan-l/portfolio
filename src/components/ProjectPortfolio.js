@@ -23,14 +23,14 @@ export default class ProjectPortfolio extends React.Component {
             <img
               className="criss-cross"
               src="../images/portfolio.png"
-              alt="project image"
+              alt="portfolio project"
             />
           </div>
         </div>
 
         <div className="full-width-container">
           <div className="link-container">
-            <a href="#">Back to Top</a>
+            <a href="#root">Back to Top</a>
           </div>
         </div>
       </div>

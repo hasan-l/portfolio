@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class Navbar extends React.Component {
   render() {
     return (
-      <div className={this.props.isNavbarToggleOn ? "navbar-expanded" : ""}>
+      <nav className={this.props.isNavbarToggleOn ? "navbar-expanded" : ""}>
         <div className="sidebar">
           <div className="sidebar-outer">
             <div className="sidebar-outer-content">
@@ -17,25 +17,28 @@ export default class Navbar extends React.Component {
             </div>
           </div>
           <div className="sidebar-inner">
-            <a
-              href="#"
+            <button
               className="navbar-toggle"
               aria-expanded={this.props.isNavbarToggleOn ? "true" : "false"}
               onClick={this.props.navbarToggleClick}
             >
               <span className="navbar-toggle-icon"></span>
-            </a>
+            </button>
             <div className="navbar-logo">
               <FontAwesomeIcon icon="chess-queen" />
             </div>
             <div className="navbar-social">
-              <a href="https://github.com/hasan-l" target="_blank">
+              <a
+                href="https://github.com/hasan-l"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     );
   }
 }

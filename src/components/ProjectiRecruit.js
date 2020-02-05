@@ -27,12 +27,12 @@ export default class ProjectiRecruit extends React.Component {
             <img
               className="criss-cross"
               src="../images/iRecruit/irecruit-home-default.png"
-              alt="project image"
+              alt="project"
             />
             <img
               className="criss-cross"
               src="../images/iRecruit/irecruit-home-vacancy.png"
-              alt="project image"
+              alt="project"
             />
           </div>
         </div>
@@ -62,12 +62,12 @@ export default class ProjectiRecruit extends React.Component {
             <img
               className="criss-cross"
               src="../images/iRecruit/P3/home-snip.png"
-              alt="project image"
+              alt="project"
             />
             <img
               className="criss-cross"
               src="../images/iRecruit/P3/vacancy-snip.png"
-              alt="project image"
+              alt="project"
             />
           </div>
         </div>
@@ -94,12 +94,12 @@ export default class ProjectiRecruit extends React.Component {
             <img
               className="criss-cross"
               src="../images/iRecruit/Battersea/home-snip.png"
-              alt="project image"
+              alt="project"
             />
             <img
               className="criss-cross"
               src="../images/iRecruit/Battersea/vacancy-snip.png"
-              alt="project image"
+              alt="project"
             />
           </div>
         </div>
@@ -117,18 +117,18 @@ export default class ProjectiRecruit extends React.Component {
             <img
               className="criss-cross"
               src="../images/iRecruit/CIPHR/home-snip.png"
-              alt="project image"
+              alt="project"
             />
             <img
               className="criss-cross"
               src="../images/iRecruit/CIPHR/vacancy-snip.png"
-              alt="project image"
+              alt="project"
             />
           </div>
         </div>
         <div className="full-width-container">
           <div className="link-container">
-            <a href="#">Back to Top</a>
+            <a href="#root">Back to Top</a>
           </div>
         </div>
       </div>

@@ -24,14 +24,18 @@ export default class ProjectMarkdown extends React.Component {
             <img
               className="criss-cross"
               src="../images/markdown.png"
-              alt="project image"
+              alt="markdown project"
             />
           </div>
         </div>
 
         <div className="full-width-container">
           <div className="link-container">
-            <a href="https://codepen.io/hasan-l/pen/mdyXdmN" target="_blank">
+            <a
+              href="https://codepen.io/hasan-l/pen/mdyXdmN"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Visit Site
             </a>
           </div>

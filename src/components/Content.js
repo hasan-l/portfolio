@@ -4,10 +4,10 @@ import ProjectItem from "./ProjectItem";
 export default class Content extends Component {
   render() {
     return (
-      <div className="content" id="projects">
+      <main className="content" id="projects">
         <div className="content-inner">
           <div className="projects-list">
-            <div href="#" className="project-intro">
+            <div className="project-intro">
               <div className="project-intro-text">
                 <h1>Projects</h1>
               </div>
@@ -17,7 +17,7 @@ export default class Content extends Component {
               img={"./images/combined.jpg"}
               type={"Web Design/Dev"}
               name={"iRecruit"}
-              details={"Branding for multiple client's"}
+              details={"Branding for multiple clients"}
             />
             <ProjectItem
               id={2}
@@ -35,7 +35,7 @@ export default class Content extends Component {
             />
           </div>
         </div>
-      </div>
+      </main>
     );
   }
 }

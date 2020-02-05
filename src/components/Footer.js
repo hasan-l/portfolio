@@ -7,7 +7,11 @@ export default class Footer extends Component {
       <div className="footer">
         <div className="footer-left"></div>
         <div className="footer-right">
-          <a href="https://github.com/hasan-l" target="_blank">
+          <a
+            href="https://github.com/hasan-l"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
           Site by Hasan Liaquat
