@@ -18,7 +18,7 @@ export default class Cover extends Component {
           alt="cover"
         />
         <div className="cover-captions">
-          <h3>Hi, I'm a web developer based in Slough, England</h3>
+          <h3>Hi, I'm a web developer</h3>
         </div>
       </div>
     );
