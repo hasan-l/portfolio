@@ -10,7 +10,8 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faChessQueen,
   faLongArrowAltLeft,
-  faExternalLinkSquareAlt
+  faExternalLinkSquareAlt,
+  faCircleNotch
 } from "@fortawesome/free-solid-svg-icons";
 
 localStorage.setItem("project_name", "Site");
@@ -20,7 +21,13 @@ window.onbeforeunload = () => {
   window.scrollTo(0, 0);
 };
 
-library.add(fab, faChessQueen, faLongArrowAltLeft, faExternalLinkSquareAlt); //fab represents all brand icons
+library.add(
+  fab,
+  faChessQueen,
+  faLongArrowAltLeft,
+  faExternalLinkSquareAlt,
+  faCircleNotch
+); //fab represents all brand icons
 
 ReactDOM.render(
   <Router>

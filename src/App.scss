@@ -43,12 +43,13 @@ a {
   align-items: center;
   justify-items: center;
   .overlay-inner {
-    animation: fadeInThenOut 2s $cubicBezier 0s forwards;
+    animation: fadeIn 0.5s $cubicBezier 1s forwards, spin 2s linear infinite;
   }
 }
 
 .fa-chess-queen,
-.fa-github {
+.fa-github,
+.fa-circle-notch {
   color: #fff;
   font-size: 1.5rem;
 }
@@ -328,6 +329,10 @@ a {
   animation: slideInAndOut 1.2s $cubicBezier 0.8s forwards;
 }
 
+.loaded .overlay-inner {
+  animation: fadeOut 0.4s $cubicBezier 1s forwards, spin 2s linear infinite;
+}
+
 .loaded .sidebar-inner {
   animation: fadeIn 0.5s $cubicBezier 1.9s forwards;
 }
@@ -345,15 +350,37 @@ a {
     opacity: 1;
   }
 }
-@keyframes fadeInThenOut {
+
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
-  30% {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
     opacity: 1;
   }
   100% {
     opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes slideUpDown {
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -364,14 +391,32 @@ a {
 }
 
 @keyframes slideInAndOut {
-  // 0% {
-  //   width: 100%;
-  // }
-  // 50% {
-  //   width: 100%;
-  // }
   100% {
     transform: translateX(-100vw);
+  }
+}
+
+@-webkit-keyframes slideInAndOut {
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
   }
 }
 

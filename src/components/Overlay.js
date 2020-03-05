@@ -6,7 +6,7 @@ export default class Overlay extends Component {
     return (
       <div className="overlay" id="overlay">
         <div className="overlay-inner">
-          <FontAwesomeIcon icon="chess-queen" />
+          <FontAwesomeIcon icon="circle-notch" />
         </div>
       </div>
     );
